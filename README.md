@@ -1,16 +1,12 @@
 # NuxGame
 
-Laravel game application with Repository-Service Pattern
-
 ## Quick Start
 
 ```bash
 # Перше встановлення (все автоматично)
 make install
-
-# Відкрити: http://localhost:8077
 ```
-
+#### Відкрити: http://localhost:8077
 ## Commands
 
 ```bash
