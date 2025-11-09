@@ -18,7 +18,7 @@ class GameResult extends Model
     ];
 
     protected $casts = [
-        'is_win' => 'boolean',
+        'is_win'     => 'boolean',
         'win_amount' => 'decimal:2',
     ];
 

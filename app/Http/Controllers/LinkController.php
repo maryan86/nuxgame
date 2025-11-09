@@ -11,8 +11,10 @@ class LinkController extends Controller
 {
     public function __construct(
         private LinkRepository $linkRepository,
-        private LinkService $linkService
-    ) {}
+        private LinkService    $linkService
+    )
+    {
+    }
 
     public function show(string $token): View|RedirectResponse
     {

@@ -11,7 +11,9 @@ class RegistrationController extends Controller
 {
     public function __construct(
         private RegistrationService $registrationService
-    ) {}
+    )
+    {
+    }
 
     public function index(): View
     {

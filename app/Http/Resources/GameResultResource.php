@@ -7,8 +7,8 @@ use Illuminate\Http\Resources\Json\JsonResource;
 
 class GameResultResource extends JsonResource
 {
-    public const RESULT_WIN = 'Win';
-    public const RESULT_LOSE = 'Lose';
+    public const string RESULT_WIN = 'Win';
+    public const string RESULT_LOSE = 'Lose';
 
     public function toArray(Request $request): array
     {
